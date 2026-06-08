@@ -1,0 +1,55 @@
+[
+  {
+    "id": "daehong",
+    "name": "대홍기획 블로그",
+    "category": "marketing",
+    "rss_url": "https://blog.daehong.com/rss",
+    "active": true
+  },
+  {
+    "id": "branderku",
+    "name": "브랜더쿠",
+    "category": "marketing",
+    "rss_url": "${BRANDERKU_FEED_URL}",
+    "active": true
+  },
+  {
+    "id": "apnews_adrev",
+    "name": "AP신문 광고평론",
+    "category": "marketing",
+    "rss_url": "https://www.apnews.kr/rss/S1N4.xml",
+    "active": true,
+    "section_filter": ["S1N4"],
+    "fallback_urls": [
+      "https://www.apnews.kr/rss/allArticle.xml"
+    ]
+  },
+  {
+    "id": "apnews_apm",
+    "name": "AP신문 AD·PR·MEDIA",
+    "category": "marketing",
+    "rss_url": "https://www.apnews.kr/rss/S1N5.xml",
+    "active": true,
+    "section_filter": ["S1N5"],
+    "fallback_urls": [
+      "https://www.apnews.kr/rss/allArticle.xml"
+    ]
+  },
+  {
+    "id": "uppity",
+    "name": "어피티 머니레터",
+    "category": "economy",
+    "rss_url": "https://uppity.co.kr/feed/",
+    "active": true,
+    "fallback_urls": [
+      "https://uppity.co.kr/feed/category/moneyletter/"
+    ]
+  },
+  {
+    "id": "tambang",
+    "name": "탐방레터",
+    "category": "local",
+    "rss_url": "${TAMBANG_FEED_URL}",
+    "active": true
+  }
+]

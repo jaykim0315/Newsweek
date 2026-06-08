@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# 환경변수 (절대 커밋 금지)
+.env
+.env.local
+.env.*.local
+
+# 데이터 / 빌드 산출물
+paper-newspaper/data/processed_urls.json
+paper-newspaper/data/latest.json
+paper-newspaper/data/issues/
+
+# IDE
+.vscode/
+.idea/
+*.swp
