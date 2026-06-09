@@ -1,0 +1,99 @@
+---
+import { readFileSync, existsSync } from 'node:fs';
+import { resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+import NewspaperLayout from '../layouts/NewspaperLayout.astro';
+import Masthead from '../components/Masthead.astro';
+import FrontSection from '../components/FrontSection.astro';
+import CategorySection from '../components/CategorySection.astro';
+import Footer from '../components/Footer.astro';
+
+// Resolve path: web/src/pages/ → web/src/ → web/ → paper-newspaper/ → data/latest.json
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const dataPath = resolve(__dirname, '..', '..', '..', 'data', 'latest.json');
+
+type Article = {
+  id: string;
+  source_name: string;
+  category: string;
+  title: string;
+  headline: string;
+  url: string;
+  published: string;
+  summary: string;
+  keywords: string[];
+  score_total: number;
+  has_lead_image: boolean;
+  image_url?: string | null;
+  image_width_hint?: number | null;
+};
+
+type IssueData = {
+  issue_date: string;
+  issue_number: number;
+  front_page: { top: Article | null; sides: Article[] };
+  sections: { marketing: Article[]; economy: Article[]; local: Article[] };
+  build_meta: { total_articles_collected: number; ai_processed: number; estimated_cost_usd: number };
+};
+
+let issueData: IssueData | null = null;
+try {
+  if (existsSync(dataPath)) {
+    issueData = JSON.parse(readFileSync(dataPath, 'utf-8')) as IssueData;
+  }
+} catch {
+  // fallback: show empty state
+}
+---
+
+<NewspaperLayout>
+  <Masthead
+    issueDate={issueData?.issue_date}
+    issueNumber={issueData?.issue_number}
+  />
+
+  {!issueData ? (
+    <div class="text-center py-24">
+      <p class="font-serif-kr text-2xl text-ink/50">이번 호 발행 준비 중입니다.</p>
+      <p class="font-sans-kr font-light text-sm text-ink/30 mt-3 tracking-wider">
+        매주 월요일 오전 6시에 발행됩니다.
+      </p>
+    </div>
+  ) : (
+    <Fragment>
+      {/* ── 1면 ─────────────────────────────── */}
+      <FrontSection frontPage={issueData.front_page} />
+
+      {/* ── 섹션 구분 (두꺼운 선) ───────────── */}
+      <div class="h-[4px] bg-ink my-6"></div>
+
+      {/* ── 마케팅 면 ───────────────────────── */}
+      <CategorySection
+        title="마케팅 면"
+        articles={issueData.sections.marketing}
+        cols={4}
+      />
+
+      <div class="h-[2px] bg-ink my-6"></div>
+
+      {/* ── 경제 면 ─────────────────────────── */}
+      <CategorySection
+        title="경제 면"
+        articles={issueData.sections.economy}
+        cols={3}
+      />
+
+      <div class="h-[2px] bg-ink my-6"></div>
+
+      {/* ── 지역 면 ─────────────────────────── */}
+      <CategorySection
+        title="지역 면"
+        articles={issueData.sections.local}
+        cols={2}
+      />
+    </Fragment>
+  )}
+
+  <Footer issueDate={issueData?.issue_date} />
+</NewspaperLayout>

@@ -70,26 +70,38 @@ def _parse_published(entry) -> datetime:
     return datetime.now(tz=timezone.utc)
 
 
-def _detect_lead_image(entry) -> bool:
-    """RSS entry에서 대표 이미지 존재 여부 감지."""
-    # media:content (YouTube, 일부 블로그 등)
-    media = getattr(entry, "media_content", None)
-    if media and any(
-        m.get("medium") == "image" or "image" in m.get("type", "")
-        for m in media
-    ):
-        return True
-    # enclosure (팟캐스트/이미지 첨부)
+def _extract_image_url(entry) -> str:
+    """RSS entry에서 대표 이미지 URL 추출. 없으면 빈 문자열 반환."""
+    # media:content
+    for m in getattr(entry, "media_content", []):
+        url = m.get("url", "")
+        if url and (m.get("medium") == "image" or "image" in m.get("type", "")):
+            return url
+    # media:thumbnail
+    for t in getattr(entry, "media_thumbnail", []):
+        url = t.get("url", "")
+        if url:
+            return url
+    # enclosure
     for enc in getattr(entry, "enclosures", []):
         if enc.get("type", "").startswith("image"):
-            return True
-    # content/summary 내 <img> 태그
+            url = enc.get("url", "")
+            if url:
+                return url
+    # <img> 태그 in content/summary
     raw = ""
     if hasattr(entry, "content") and entry.content:
         raw = entry.content[0].value
     elif hasattr(entry, "summary"):
         raw = entry.summary or ""
-    return bool(re.search(r"<img\s", raw, re.IGNORECASE))
+    m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', raw, re.IGNORECASE)
+    if m:
+        return m.group(1)
+    return ""
+
+
+def _detect_lead_image(entry) -> bool:
+    return bool(_extract_image_url(entry))
 
 
 def _clean_html(text: str, max_len: int = 800) -> str:
@@ -145,6 +157,7 @@ def _entries_to_articles(
         if not raw_content:
             raw_content = getattr(entry, "summary", "") or ""
 
+        image_url = _extract_image_url(entry)
         articles.append(
             {
                 "id": h,
@@ -155,7 +168,8 @@ def _entries_to_articles(
                 "url": url,
                 "summary": _clean_html(raw_content),
                 "published": pub.isoformat(),
-                "has_lead_image": _detect_lead_image(entry),
+                "has_lead_image": bool(image_url),
+                "image_url": image_url,
                 "section_filter": source.get("section_filter", []),
             }
         )

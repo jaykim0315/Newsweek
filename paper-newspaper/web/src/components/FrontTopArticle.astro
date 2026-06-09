@@ -1,0 +1,113 @@
+---
+interface Article {
+  title: string;
+  headline: string;
+  url: string;
+  source_name: string;
+  category: string;
+  published: string;
+  summary: string;
+  keywords: string[];
+  has_lead_image: boolean;
+  image_url?: string | null;
+  image_width_hint?: number;
+}
+
+interface Props {
+  article: Article;
+}
+
+const { article } = Astro.props;
+
+const LABELS: Record<string, string> = {
+  marketing: '마케팅',
+  economy: '경제',
+  local: '지역',
+};
+
+function fmtDate(iso: string): string {
+  const d = new Date(iso);
+  return `${d.getMonth() + 1}월 ${d.getDate()}일`;
+}
+
+const summaryLines = article.summary.split('\n').filter(Boolean);
+
+// 400px 이상으로 추정되는 이미지만 표시 (stibee 헤더, 아이콘 등 제외)
+const hasImage = Boolean(article.image_url) && (article.image_width_hint ?? 0) >= 400;
+---
+
+<article class="py-6 pr-0 lg:pr-5">
+  <!-- 카테고리 라벨 -->
+  <div class="font-sans-kr text-[0.6rem] font-normal tracking-[0.2em] uppercase text-wine mb-2">
+    {LABELS[article.category] ?? article.category}
+  </div>
+
+  <!-- 헤드라인 (대형) -->
+  <h2 class:list={[
+    "font-serif-kr font-black leading-[1.08] text-ink mb-3",
+    hasImage
+      ? "text-[2rem] sm:text-[2.4rem] md:text-[2.8rem]"
+      : "text-[2.2rem] sm:text-[2.8rem] md:text-[3.2rem]",
+  ]}>
+    {article.headline}
+  </h2>
+
+  <!-- 원제 (작게) -->
+  <p class="font-sans-kr font-light text-[0.65rem] text-ink/50 mb-3 leading-relaxed">
+    {article.title}
+  </p>
+
+  <!-- 가는 구분선 -->
+  <div class="h-px bg-ink/25 mb-4"></div>
+
+  <!-- 대표 이미지 (16:9, 검증된 이미지만) -->
+  {hasImage && (
+    <div
+      class="mb-4 overflow-hidden img-container-top"
+      style="border: 1px solid #1a1a1a;"
+    >
+      <img
+        src={article.image_url!}
+        alt={article.headline}
+        class="img-fill"
+        loading="eager"
+        onerror="this.closest('.img-container-top').style.display='none'"
+      />
+    </div>
+  )}
+
+  <!-- 요약 (신문 본문 톤) -->
+  <div class="font-serif-kr font-normal text-[0.9rem] leading-[1.85] text-ink space-y-1.5 mb-5">
+    {summaryLines.map(line => <p>{line}</p>)}
+  </div>
+
+  <!-- 푸터: 출처 · 날짜 · 원문 -->
+  <div class="flex flex-wrap items-center gap-x-2 gap-y-1 border-t border-ink/20 pt-3">
+    <span class="font-sans-kr font-light text-[0.625rem] text-ink/50">{article.source_name}</span>
+    <span class="text-ink/30 text-[0.625rem]">·</span>
+    <span class="font-sans-kr font-light text-[0.625rem] text-ink/50">{fmtDate(article.published)}</span>
+    <span class="text-ink/30 text-[0.625rem]">·</span>
+    <a
+      href={article.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="font-sans-kr font-normal text-[0.625rem] text-wine hover:underline underline-offset-2"
+    >
+      원문 보기 →
+    </a>
+  </div>
+</article>
+
+<style>
+  .img-container-top {
+    aspect-ratio: 16 / 9;
+    position: relative;
+  }
+  .img-fill {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+  }
+</style>

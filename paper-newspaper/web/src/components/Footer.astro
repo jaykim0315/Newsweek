@@ -1,0 +1,42 @@
+---
+interface Props {
+  issueDate?: string;
+}
+
+const { issueDate } = Astro.props;
+
+function formatDate(dateStr?: string): string {
+  if (!dateStr) return '';
+  const [y, m, d] = dateStr.split('-').map(Number);
+  return `${y}년 ${m}월 ${d}일`;
+}
+
+function nextMonday(dateStr?: string): string {
+  if (!dateStr) return '';
+  const [y, m, d] = dateStr.split('-').map(Number);
+  const date = new Date(y, m - 1, d);
+  const dow = date.getDay();
+  // Days until next Monday (if today is Mon, go to next Mon = +7)
+  const daysToAdd = dow === 1 ? 7 : (8 - dow) % 7 || 7;
+  date.setDate(date.getDate() + daysToAdd);
+  return `${date.getFullYear()}년 ${date.getMonth() + 1}월 ${date.getDate()}일 월요일`;
+}
+
+const buildDateStr = formatDate(issueDate);
+const nextIssueStr = nextMonday(issueDate);
+---
+
+<footer class="mt-10 pt-3 border-t-[3px] border-ink pb-10">
+  <div class="flex flex-col sm:flex-row justify-between gap-1.5">
+    <p class="font-sans-kr font-light text-[0.625rem] text-ink/40 leading-relaxed">
+      이 신문은 {buildDateStr || '—'} 자동 빌드되었습니다
+      &nbsp;·&nbsp;
+      데이터 출처: 대홍기획·브랜더쿠·AP신문·어피티·탐방레터
+    </p>
+    {nextIssueStr && (
+      <p class="font-sans-kr font-light text-[0.625rem] text-ink/40 sm:text-right whitespace-nowrap">
+        다음 호 발행 예정: {nextIssueStr}
+      </p>
+    )}
+  </div>
+</footer>

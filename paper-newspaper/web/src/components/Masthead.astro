@@ -1,0 +1,48 @@
+---
+interface Props {
+  issueDate?: string;
+  issueNumber?: number;
+}
+
+const { issueDate, issueNumber } = Astro.props;
+
+function formatIssueDate(dateStr?: string): string {
+  if (!dateStr) return '';
+  const [y, m, d] = dateStr.split('-').map(Number);
+  const days = ['일', '월', '화', '수', '목', '금', '토'];
+  const dow = new Date(y, m - 1, d).getDay();
+  return `${y}년 ${m}월 ${d}일 ${days[dow]}요일`;
+}
+
+const displayDate = formatIssueDate(issueDate);
+---
+
+<header class="pt-8 pb-0 select-none">
+  <!-- 제호 -->
+  <div class="text-center mb-2">
+    <h1 class="font-masthead text-[2.8rem] sm:text-[4.5rem] md:text-[6rem] leading-none tracking-tight text-ink">
+      The Mondaehyun Brief
+    </h1>
+    <p class="font-sans-kr font-light text-[0.65rem] sm:text-xs text-ink/60 mt-2 tracking-[0.25em] uppercase">
+      매주 월요일, 마케팅&thinsp;·&thinsp;브랜드&thinsp;·&thinsp;경제&thinsp;·&thinsp;지역을 한 장에
+    </p>
+  </div>
+
+  <!-- 두꺼운 가로선 -->
+  <div class="h-[3px] bg-ink mt-3"></div>
+
+  <!-- 발행일 / 호수 -->
+  <div class="flex justify-between items-center py-1.5">
+    <span class="font-sans-kr font-light text-[0.65rem] sm:text-xs text-ink">
+      {displayDate || '발행 준비 중'}
+    </span>
+    {issueNumber != null && (
+      <span class="font-sans-kr font-light text-[0.65rem] sm:text-xs text-ink">
+        제&nbsp;{issueNumber}&nbsp;호
+      </span>
+    )}
+  </div>
+
+  <!-- 가는 가로선 -->
+  <div class="h-px bg-ink"></div>
+</header>

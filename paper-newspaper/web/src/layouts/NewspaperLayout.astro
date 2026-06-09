@@ -1,0 +1,44 @@
+---
+interface Props {
+  title?: string;
+}
+const { title = 'The Mondaehyun Brief' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content="매주 월요일, 마케팅·브랜드·경제·지역을 한 장에" />
+
+  <!-- Preconnect for Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Preload + Load fonts to prevent CLS -->
+  <link
+    rel="preload"
+    as="style"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Noto+Serif+KR:wght@400;700;900&family=Noto+Sans+KR:wght@300;400&display=swap"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Noto+Serif+KR:wght@400;700;900&family=Noto+Sans+KR:wght@300;400&display=swap"
+    rel="stylesheet"
+  />
+
+  <style>
+    /* Prevent layout shift while fonts load */
+    html { font-display: optional; }
+    * { box-sizing: border-box; }
+    /* Enforce zero radius site-wide */
+    * { border-radius: 0 !important; }
+  </style>
+</head>
+<body class="bg-paper text-ink antialiased">
+  <div class="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-10">
+    <slot />
+  </div>
+</body>
+</html>

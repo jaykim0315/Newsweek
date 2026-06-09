@@ -1,0 +1,104 @@
+---
+interface Article {
+  title: string;
+  headline: string;
+  url: string;
+  source_name: string;
+  category: string;
+  published: string;
+  summary: string;
+  keywords: string[];
+  has_lead_image: boolean;
+  image_url?: string | null;
+  image_width_hint?: number;
+}
+
+interface Props {
+  article: Article;
+}
+
+const { article } = Astro.props;
+
+const LABELS: Record<string, string> = {
+  marketing: '마케팅',
+  economy: '경제',
+  local: '지역',
+};
+
+function fmtDate(iso: string): string {
+  const d = new Date(iso);
+  return `${d.getMonth() + 1}월 ${d.getDate()}일`;
+}
+
+const summary = article.summary.replace(/\n/g, ' ');
+const hasImage = Boolean(article.image_url) && (article.image_width_hint ?? 0) >= 300;
+---
+
+<article class="flex flex-col h-full">
+  <!-- 대표 이미지 4:3 (있을 때만) -->
+  {hasImage && (
+    <div
+      class="overflow-hidden mb-2 -mx-5 -mt-3 img-container-card"
+      style="border-bottom: 1px solid #1a1a1a;"
+    >
+      <img
+        src={article.image_url!}
+        alt={article.headline}
+        class="img-fill"
+        loading="lazy"
+        onerror="this.closest('.img-container-card').style.display='none'"
+      />
+    </div>
+  )}
+
+  <!-- 카테고리 라벨 -->
+  <div class:list={[
+    "font-sans-kr text-[0.6rem] font-normal tracking-[0.18em] uppercase text-wine mb-1.5",
+    hasImage && "mt-2",
+  ]}>
+    {LABELS[article.category] ?? article.category}
+  </div>
+
+  <!-- 헤드라인 -->
+  <h3 class="font-serif-kr font-bold text-[0.95rem] leading-snug text-ink mb-2">
+    {article.headline}
+  </h3>
+
+  <!-- 가는 선 -->
+  <div class="h-px bg-ink/15 mb-2"></div>
+
+  <!-- 요약 (최대 3줄) -->
+  <p class="font-serif-kr font-normal text-[0.8rem] leading-relaxed text-ink/80 line-clamp-3 flex-1 mb-3">
+    {summary}
+  </p>
+
+  <!-- 푸터 -->
+  <div class="flex flex-wrap items-center gap-x-1.5 border-t border-ink/15 pt-2 mt-auto">
+    <span class="font-sans-kr font-light text-[0.6rem] text-ink/50">{article.source_name}</span>
+    <span class="text-ink/30 text-[0.6rem]">·</span>
+    <span class="font-sans-kr font-light text-[0.6rem] text-ink/50">{fmtDate(article.published)}</span>
+    <span class="text-ink/30 text-[0.6rem]">·</span>
+    <a
+      href={article.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="font-sans-kr font-normal text-[0.6rem] text-wine hover:underline underline-offset-2"
+    >
+      원문 보기 →
+    </a>
+  </div>
+</article>
+
+<style>
+  .img-container-card {
+    aspect-ratio: 4 / 3;
+    position: relative;
+  }
+  .img-fill {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+  }
+</style>

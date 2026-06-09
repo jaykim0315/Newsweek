@@ -1,0 +1,84 @@
+---
+import FrontTopArticle from './FrontTopArticle.astro';
+import SideArticle from './SideArticle.astro';
+
+interface Article {
+  title: string;
+  headline: string;
+  url: string;
+  source_name: string;
+  category: string;
+  published: string;
+  summary: string;
+  keywords: string[];
+  has_lead_image: boolean;
+  image_url?: string | null;
+  image_width_hint?: number | null;
+}
+
+interface Props {
+  frontPage: {
+    top: Article | null;
+    sides: Article[];
+  };
+}
+
+const { frontPage } = Astro.props;
+const { top, sides } = frontPage;
+const hasSides = sides && sides.length > 0;
+---
+
+<section class="py-4">
+  {!top && !hasSides ? (
+    <div class="text-center py-16">
+      <p class="font-serif-kr text-xl text-ink/50">이번 호 발행 준비 중입니다.</p>
+      <p class="font-sans-kr font-light text-xs text-ink/30 mt-2 tracking-wider">매주 월요일 오전 6시 발행</p>
+    </div>
+  ) : (
+    <div class="front-grid">
+      <!-- 1면 톱 (3 컬럼) -->
+      <div class="front-main">
+        {top
+          ? <FrontTopArticle article={top} />
+          : <p class="font-serif-kr text-ink/30 py-8 text-sm">톱 기사 준비 중</p>
+        }
+      </div>
+
+      <!-- 세로 구분선 + 사이드 (1 컬럼) -->
+      <div class="front-side">
+        {sides.map((article, i) => (
+          <SideArticle article={article} first={i === 0} />
+        ))}
+      </div>
+    </div>
+  )}
+</section>
+
+<style>
+  .front-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .front-side {
+    border-top: 1px solid #1a1a1a;
+    padding-top: 1.5rem;
+  }
+
+  @media (min-width: 1024px) {
+    .front-grid {
+      grid-template-columns: 3fr 1fr;
+    }
+
+    .front-main {
+      border-right: 1px solid #1a1a1a;
+      padding-right: 1.5rem;
+    }
+
+    .front-side {
+      border-top: none;
+      padding-top: 0;
+      padding-left: 1.5rem;
+    }
+  }
+</style>

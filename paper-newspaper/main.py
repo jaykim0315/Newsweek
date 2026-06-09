@@ -24,6 +24,7 @@ logging.basicConfig(
 from src.collector import collect_all_sources
 from src.curator import curate_issue
 from src.filter import apply_prefilter
+from src.image_enricher import enrich_images
 from src.scorer import score_articles
 from src.storage import save_issue, update_processed_urls
 
@@ -48,7 +49,7 @@ def main() -> None:
     logger.info(BAR)
 
     # 1단계: RSS 수집
-    logger.info("[1/5] RSS 수집")
+    logger.info("[1/6] RSS 수집")
     articles = collect_all_sources()
     logger.info(f"      → 수집: {len(articles)}개 기사\n")
 
@@ -57,17 +58,17 @@ def main() -> None:
         sys.exit(0)
 
     # 2단계: 사전 필터링
-    logger.info("[2/5] 사전 필터링 (AI 없음)")
+    logger.info("[2/6] 사전 필터링 (AI 없음)")
     filtered = apply_prefilter(articles)
     logger.info(f"      → 필터 후: {len(filtered)}개\n")
 
     # 3단계: AI 점수 매기기
-    logger.info("[3/5] AI 점수 매기기 (Claude Haiku 4.5)")
+    logger.info("[3/6] AI 점수 매기기 (Claude Haiku 4.5)")
     scored = score_articles(filtered)
     logger.info(f"      → 점수 완료: {len(scored)}개\n")
 
     # 4단계: 큐레이션
-    logger.info("[4/5] 큐레이션")
+    logger.info("[4/6] 큐레이션")
     issue = curate_issue(
         scored,
         total_collected=len(articles),
@@ -75,16 +76,29 @@ def main() -> None:
     )
     logger.info(f"      → 이슈 #{issue['issue_number']} ({issue['issue_date']}) 구성\n")
 
-    # 5단계: 저장
-    logger.info("[5/5] 결과 저장")
+    # 5단계: 이미지 보강
+    logger.info("[5/6] 이미지 보강 (RSS + og:image)")
+    enrich_images(issue)
+    logger.info("")
+
+    # 6단계: 저장
+    logger.info("[6/6] 결과 저장")
     save_issue(issue)
     update_processed_urls(articles)
 
     meta = issue["build_meta"]
+    has_img = sum(
+        1 for a in (
+            ([issue["front_page"].get("top")] if issue["front_page"].get("top") else [])
+            + issue["front_page"].get("sides", [])
+            + [a for s in issue["sections"].values() for a in s]
+        )
+        if a.get("image_url")
+    )
     logger.info("")
     logger.info(BAR)
     logger.info("  빌드 완료!")
-    logger.info(f"  수집: {meta['total_articles_collected']}개  |  AI 처리: {meta['ai_processed']}개")
+    logger.info(f"  수집: {meta['total_articles_collected']}개  |  AI 처리: {meta['ai_processed']}개  |  이미지: {has_img}개")
     logger.info(
         f"  토큰: 입력 {meta['token_usage']['input_tokens']:,}  / "
         f"출력 {meta['token_usage']['output_tokens']:,}"
