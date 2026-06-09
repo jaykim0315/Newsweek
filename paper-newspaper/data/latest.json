@@ -1,0 +1,460 @@
+{
+  "issue_date": "2026-06-09",
+  "issue_number": 3,
+  "front_page": {
+    "top": {
+      "id": "2fdc86086d307ecf846fc3247c2f6a52",
+      "source_id": "daehong",
+      "source_name": "대홍기획 블로그",
+      "category": "marketing",
+      "title": "서울의 아이디어, 뉴욕에서 통했다",
+      "headline": "서울 아이디어, 뉴욕서 수상",
+      "url": "https://blog.daehong.com/943",
+      "published": "2026-06-04T02:05:33+00:00",
+      "summary": "롯데건설과 대홍기획의 '폭염주의복' 캠페인이 2026 클리오 어워즈 브론즈를 수상했다.\n뉴욕 시상식 현장의 생생한 경험담과 한국 광고의 국제적 위상을 담았다.\n글로벌 광고 시장에서 한국 창의성의 가치를 보여주는 사례다.",
+      "keywords": [
+        "클리오 어워즈",
+        "폭염주의복",
+        "국제 광고상"
+      ],
+      "score_total": 85,
+      "score_breakdown": {
+        "relevance": 38,
+        "timeliness": 15,
+        "originality": 14,
+        "depth": 12,
+        "newsworthy": 6
+      },
+      "has_lead_image": true,
+      "image_url": "https://blog.kakaocdn.net/dn/bPXJ9A/dJMcaip1bHW/ibq1J2v9MveqEBcM9WEUL1/img.jpg",
+      "image_width_hint": 860
+    },
+    "sides": [
+      {
+        "id": "f83b1f016aaa2784eb7309d9b13e313d",
+        "source_id": "daehong",
+        "source_name": "대홍기획 블로그",
+        "category": "marketing",
+        "title": "컨디션_ &lsquo;장카설유&rsquo;를 섭외했다고?!",
+        "headline": "컨디션 '장카설유' 광고 성공",
+        "url": "https://blog.daehong.com/944",
+        "published": "2026-06-05T02:52:00+00:00",
+        "summary": "숙취해소제 컨디션이 4세대 아이돌 조합으로 광고한 캠페인이 대성공했다.\n2030세대를 타깃으로 제품의 일상적 사용을 강조하는 전략을 펼쳤다.\n마케팅팀 담당자 인터뷰로 캠페인 배경과 성과를 구체적으로 설명한다.",
+        "keywords": [
+          "컨디션",
+          "캠페인",
+          "2030세대"
+        ],
+        "score_total": 82,
+        "score_breakdown": {
+          "relevance": 38,
+          "timeliness": 14,
+          "originality": 13,
+          "depth": 12,
+          "newsworthy": 5
+        },
+        "has_lead_image": true,
+        "image_url": "https://blog.kakaocdn.net/dn/FKIsT/dJMcahYWJcG/MNNmbEkYsvB3P9JnoHLXn0/img.jpg",
+        "image_width_hint": 1000
+      },
+      {
+        "id": "5144b672aa8914f8f1abf9ebd1788806",
+        "source_id": "uppity",
+        "source_name": "어피티 머니레터",
+        "category": "economy",
+        "title": "대하락장 속에서 네이버만 웃은 이유",
+        "headline": "대하락장 속 네이버 급등, 엔비디아 협력이 주효",
+        "url": "https://uppity.co.kr/%eb%8c%80%ed%95%98%eb%9d%bd%ec%9e%a5-%ec%86%8d%ec%97%90%ec%84%9c-%eb%84%a4%ec%9d%b4%eb%b2%84%eb%a7%8c-%ec%9b%83%ec%9d%80-%ec%9d%b4%ec%9c%a0/",
+        "published": "2026-06-09T01:30:37+00:00",
+        "summary": "코스피가 8% 이상 폭락하는 와중에 네이버는 10% 이상 급등했다.\n엔비디아 CEO 젠슨 황이 네이버클라우드를 주요 AI 파트너로 공개한 것이 투자심리를 자극했다.\n글로벌 기술업체와의 협력이 국내 빅테크 가치 제고로 이어지는 현장을 포착했다.",
+        "keywords": [
+          "네이버",
+          "엔비디아",
+          "AI클라우드",
+          "주가급등"
+        ],
+        "score_total": 82,
+        "score_breakdown": {
+          "relevance": 35,
+          "timeliness": 15,
+          "originality": 12,
+          "depth": 13,
+          "newsworthy": 7
+        },
+        "has_lead_image": true,
+        "image_url": "https://uppity.co.kr/wp-content/uploads/2026/06/94458.jpg",
+        "image_width_hint": 800
+      }
+    ]
+  },
+  "sections": {
+    "marketing": [
+      {
+        "id": "77c0cc6a9d2b1d4a2a04e1451e445505",
+        "source_id": "daehong",
+        "source_name": "대홍기획 블로그",
+        "category": "marketing",
+        "title": "66노스_북위 66도를 지켜온 100년의 철학",
+        "headline": "북극권 66노스, 100년 철학",
+        "url": "https://blog.daehong.com/945",
+        "published": "2026-06-05T03:55:05+00:00",
+        "summary": "아이슬란드 브랜드 66노스의 브랜드 스토리를 심층 분석한 기사다.\n2026 밀라노-코르티나 동계올림픽 개막식에서 발견된 브랜드의 역사와 철학을 추적한다.\n산악인 기자의 관찰력으로 브랜드 가치를 체계적으로 조명한다.",
+        "keywords": [
+          "브랜드 스토리",
+          "66노스",
+          "동계올림픽"
+        ],
+        "score_total": 78,
+        "score_breakdown": {
+          "relevance": 32,
+          "timeliness": 13,
+          "originality": 14,
+          "depth": 12,
+          "newsworthy": 7
+        },
+        "has_lead_image": true,
+        "image_url": "https://blog.kakaocdn.net/dn/dinFR0/dJMcahECLdC/AI7i509hTKpJQJNgPJgoI1/img.jpg",
+        "image_width_hint": 1000
+      },
+      {
+        "id": "37e5ae34430268a7a53c376bba5c1e25",
+        "source_id": "apnews_adrev",
+        "source_name": "AP신문 광고평론",
+        "category": "marketing",
+        "title": "전형성 비틀어 활력 불어넣다…처음처럼 새광고",
+        "headline": "처음처럼, 출시 20년 기념 광고",
+        "url": "https://www.apnews.kr/news/articleView.html?idxno=3048904",
+        "published": "2026-06-08T13:00:00+00:00",
+        "summary": "롯데칠성의 '처음처럼'이 출시 20주년을 맞아 코미디언 이수지와의 광고를 공개했다.\n이수지가 과거 배우 수지 출연 광고를 능청스럽게 패러디하며 기존 전형성을 비틀어 새로운 활력을 불어넣었다.\n세대를 아우르는 소비자들에게 브랜드 친근감을 전달하는 정교한 마케팅 사례.",
+        "keywords": [
+          "광고평론",
+          "처음처럼",
+          "브랜드마케팅"
+        ],
+        "score_total": 76,
+        "score_breakdown": {
+          "relevance": 38,
+          "timeliness": 13,
+          "originality": 13,
+          "depth": 9,
+          "newsworthy": 3
+        },
+        "has_lead_image": false,
+        "image_url": "https://cdn.apnews.kr/news/thumbnail/202606/3048904_80358_3921_v150.jpg",
+        "image_width_hint": 800
+      },
+      {
+        "id": "5213db362e3db032e773524ba0395884",
+        "source_id": "apnews_adrev",
+        "source_name": "AP신문 광고평론",
+        "category": "marketing",
+        "title": "라인업 확장과 론칭의 정석…이삭토스트 새광고",
+        "headline": "이삭토스트, 론칭 신제품 광고",
+        "url": "https://www.apnews.kr/news/articleView.html?idxno=3048886",
+        "published": "2026-06-07T14:17:08+00:00",
+        "summary": "이삭토스트가 지난 5월 신제품 소스 출시를 기념해 세븐틴 민규를 주인공으로 한 광고를 공개했다.\n집에서도 즐길 수 있는 이삭토스트의 확장된 경험을 '여유로운 일상 속 달콤함'으로 표현했다.\n20년 브랜드의 라인업 확장과 신제품 론칭의 정석적이고 효과적인 광고 사례.",
+        "keywords": [
+          "광고평론",
+          "이삭토스트",
+          "제품론칭"
+        ],
+        "score_total": 74,
+        "score_breakdown": {
+          "relevance": 38,
+          "timeliness": 12,
+          "originality": 12,
+          "depth": 8,
+          "newsworthy": 4
+        },
+        "has_lead_image": false,
+        "image_url": "https://cdn.apnews.kr/news/thumbnail/202606/3048886_80307_557_v150.jpg",
+        "image_width_hint": 800
+      },
+      {
+        "id": "8c6258edb8d6d79da5a80bc7d70a9ba6",
+        "source_id": "apnews_apm",
+        "source_name": "AP신문 AD·PR·MEDIA",
+        "category": "marketing",
+        "title": "성적 광고 범람에 칼 빼든 인신윤위…자율규제 강화 논의",
+        "headline": "선정적 광고 규제 강화 논의",
+        "url": "https://www.apnews.kr/news/articleView.html?idxno=3048796",
+        "published": "2026-06-02T11:30:49+00:00",
+        "summary": "인터넷신문윤리위원회가 선정적 광고 범람에 대한 자율규제 방안을 모색했다.\n'제3회 인터넷신문 윤리주간 2026'에서 광고 유통 구조 변화와 실태 분석을 진행했다.\n인터넷신문 광고 환경의 윤리적 문제 진단 및 규제 실효성 확보를 위한 학술심포지움을 개최했다.",
+        "keywords": [
+          "광고규제",
+          "윤리",
+          "자율규제"
+        ],
+        "score_total": 74,
+        "score_breakdown": {
+          "relevance": 32,
+          "timeliness": 14,
+          "originality": 12,
+          "depth": 11,
+          "newsworthy": 5
+        },
+        "has_lead_image": false,
+        "image_url": "https://cdn.apnews.kr/news/thumbnail/202606/3048796_80175_3011_v150.jpg",
+        "image_width_hint": 800
+      },
+      {
+        "id": "128d5725335573269ce2a5a794131f54",
+        "source_id": "branderku",
+        "source_name": "브랜더쿠",
+        "category": "marketing",
+        "title": "🌳지구 지킬래 말래? Green Green 브랜드 3",
+        "headline": "친환경 브랜드, 착함 넘어",
+        "url": "https://kill-the-newsletter.com/feeds/d3i8um66z0qrc6f975gm/entries/fehrxfqcldampbgaq146.html",
+        "published": "2026-06-04T22:31:58+00:00",
+        "summary": "세계 환경의 날을 맞아 감성과 기술력으로 매력을 발휘하는 친환경 브랜드를 소개한다.\n착한 의도에만 의존하지 않고 제품력으로 소비자를 사로잡는 사례들을 분석한다.\n브랜드의 진정성과 시장 전략을 균형있게 다루는 인사이트물이다.",
+        "keywords": [
+          "친환경 브랜드",
+          "ESG",
+          "소비자 심리"
+        ],
+        "score_total": 73,
+        "score_breakdown": {
+          "relevance": 36,
+          "timeliness": 14,
+          "originality": 12,
+          "depth": 10,
+          "newsworthy": 1
+        },
+        "has_lead_image": true,
+        "image_url": "https://img2.stibee.com/17429_3423108_1780560172630008751.png",
+        "image_width_hint": 600
+      },
+      {
+        "id": "6576c380149bde07035f8775edb41f76",
+        "source_id": "apnews_adrev",
+        "source_name": "AP신문 광고평론",
+        "category": "marketing",
+        "title": "화려한 포스에 가려진 브랜드 메시지…현대제철 새광고",
+        "headline": "현대제철, 스타워즈와 협업 광고",
+        "url": "https://www.apnews.kr/news/articleView.html?idxno=3048819",
+        "published": "2026-06-04T14:06:07+00:00",
+        "summary": "현대제철이 영화 '스타워즈: 만달로리안과 그로구'와의 협업으로 친환경 철강 기술을 소개하는 광고를 공개했다.\n전기로와 고로의 결합 기술을 우주 최강의 듀오 만남으로 은유적으로 표현해 시각적 몰입감을 높였다.\n다만 기술 메시지가 포스에 가려져 브랜드 커뮤니케이션의 명확성은 다소 부족한 평가.",
+        "keywords": [
+          "광고평론",
+          "현대제철",
+          "기업광고"
+        ],
+        "score_total": 72,
+        "score_breakdown": {
+          "relevance": 38,
+          "timeliness": 12,
+          "originality": 12,
+          "depth": 8,
+          "newsworthy": 2
+        },
+        "has_lead_image": false,
+        "image_url": "https://cdn.apnews.kr/news/thumbnail/202606/3048819_80206_3528_v150.jpg",
+        "image_width_hint": 800
+      },
+      {
+        "id": "fa4db05311c1a624a47836e802314a78",
+        "source_id": "apnews_adrev",
+        "source_name": "AP신문 광고평론",
+        "category": "marketing",
+        "title": "X세대를 위한 활력 처방…동아제약 새광고",
+        "headline": "X세대 공감 이끈 박카스 광고",
+        "url": "https://www.apnews.kr/news/articleView.html?idxno=3048851",
+        "published": "2026-06-05T10:45:15+00:00",
+        "summary": "동아제약이 선보인 박카스 '만능 팀장 편' 광고가 직장인의 정체성 혼란을 재치있게 표현했다.\n듀스의 히트곡 '우리는'을 배경음악으로 1인 다역을 수행하는 지친 팀장의 모습을 사실적으로 그려냈다.\n현대인의 일상 피로를 위로하는 브랜드 메시지 전달에 성공했다는 평가다.",
+        "keywords": [
+          "박카스",
+          "광고",
+          "직장인"
+        ],
+        "score_total": 72,
+        "score_breakdown": {
+          "relevance": 38,
+          "timeliness": 13,
+          "originality": 11,
+          "depth": 10,
+          "newsworthy": 0
+        },
+        "has_lead_image": false,
+        "image_url": "https://cdn.apnews.kr/news/thumbnail/202606/3048851_80266_3617_v150.jpg",
+        "image_width_hint": 800
+      },
+      {
+        "id": "f9df3ab1018dd9fe51f8f9be223a0340",
+        "source_id": "apnews_adrev",
+        "source_name": "AP신문 광고평론",
+        "category": "marketing",
+        "title": "진심은 100%ㆍ설득은 1% 부족…NH농협은행 새광고",
+        "headline": "NH농협은행, 1%의 진심 광고",
+        "url": "https://www.apnews.kr/news/articleView.html?idxno=3048896",
+        "published": "2026-06-08T08:00:00+00:00",
+        "summary": "NH농협은행이 배우 박지훈을 기용해 '1%의 진심'을 주제로 한 광고를 선보였다.\n시장 상인의 덤, 기업 투자, 금융사기 예방 등 일상 곳곳의 세심한 정성을 조명하며 따뜻한 메시지를 전달한다.\n진정한 감정은 충분하나 금융기관으로서의 상품 설득력과 차별화는 다소 미흡한 평가.",
+        "keywords": [
+          "광고평론",
+          "NH농협은행",
+          "감정마케팅"
+        ],
+        "score_total": 70,
+        "score_breakdown": {
+          "relevance": 36,
+          "timeliness": 12,
+          "originality": 11,
+          "depth": 8,
+          "newsworthy": 3
+        },
+        "has_lead_image": false,
+        "image_url": "https://cdn.apnews.kr/news/thumbnail/202606/3048896_80341_3614_v150.jpg",
+        "image_width_hint": 800
+      }
+    ],
+    "economy": [
+      {
+        "id": "f2624405f39b66e76ca7ee92995ee0cc",
+        "source_id": "uppity",
+        "source_name": "어피티 머니레터",
+        "category": "economy",
+        "title": "한국판 NASA에 묻다, 우리 우주산업은 지금 어디쯤 왔을까요?",
+        "headline": "한국판 NASA, 우주산업 현주소를 말하다",
+        "url": "https://uppity.co.kr/%ed%95%9c%ea%b5%ad%ed%8c%90-nasa%ec%97%90-%eb%ac%bb%eb%8b%a4-%ec%9a%b0%eb%a6%ac-%ec%9a%b0%ec%a3%bc%ec%82%b0%ec%97%85%ec%9d%80-%ec%a7%80%ea%b8%88-%ec%96%b4%eb%94%94%ec%af%a4-%ec%99%94%ec%9d%84/",
+        "published": "2026-06-09T01:38:50+00:00",
+        "summary": "우주항공청 노경원 차장과의 인터뷰를 통해 국내 우주산업의 현황과 발전 방향을 조망했다.\n스페이스X 상장 등 글로벌 우주경제 확대 속에서 한국의 입지를 짚어본 심층 분석이다.\n우주산업이 투자 대상을 넘어 국가 전략산업으로 자리매김하는 과정을 다뤘다.",
+        "keywords": [
+          "우주항공청",
+          "우주산업",
+          "누리호",
+          "인터뷰"
+        ],
+        "score_total": 78,
+        "score_breakdown": {
+          "relevance": 32,
+          "timeliness": 13,
+          "originality": 16,
+          "depth": 12,
+          "newsworthy": 5
+        },
+        "has_lead_image": false,
+        "image_url": "https://uppity.co.kr/wp-content/uploads/2026/06/nasa-hubble-space-telescope-WmbePYToF6c-unsplash-e1780969031824.jpg",
+        "image_width_hint": 800
+      },
+      {
+        "id": "0a95e0881637d957779574bcde267df1",
+        "source_id": "uppity",
+        "source_name": "어피티 머니레터",
+        "category": "economy",
+        "title": "💰하락장에도 네이버 주가 끌어올린 엔비디아 협력 소식",
+        "headline": "네이버, 엔비디아와 손잡고 하락장 극복",
+        "url": "https://uppity.co.kr/%f0%9f%92%b0%ed%95%98%eb%9d%bd%ec%9e%a5%ec%97%90%eb%8f%84-%eb%84%a4%ec%9d%b4%eb%b2%84-%ec%a3%bc%ea%b0%80-%eb%81%8c%ec%96%b4%ec%98%ac%eb%a6%b0-%ec%97%94%eb%b9%84%eb%94%94%ec%95%84-%ed%98%91%eb%a0%a5/",
+        "published": "2026-06-09T00:58:31+00:00",
+        "summary": "코스피 8% 급락 속 네이버는 엔비디아와의 협력 발표로 10% 이상 상승했다.\n젠슨 황 CEO의 방한과 네이버클라우드의 AI 파트너 공식 인정이 촉발제 역할을 했다.\n시장 대변동 속에서 기술 혁신의 가치를 재평가하는 신호로 해석된다.",
+        "keywords": [
+          "네이버",
+          "엔비디아",
+          "코스피",
+          "AI협력"
+        ],
+        "score_total": 75,
+        "score_breakdown": {
+          "relevance": 33,
+          "timeliness": 14,
+          "originality": 10,
+          "depth": 11,
+          "newsworthy": 7
+        },
+        "has_lead_image": true,
+        "image_url": "https://img2.stibee.com/8466_3128488_1765182394376667901.png",
+        "image_width_hint": 630
+      },
+      {
+        "id": "aff5292d8d4a9a90f169b51b6b39d630",
+        "source_id": "uppity",
+        "source_name": "어피티 머니레터",
+        "category": "economy",
+        "title": "코스피와 코스닥,  롤러코스터 & 양극화 장세예요",
+        "headline": "코스피 신고가 달성, 코스닥은 하락",
+        "url": "https://uppity.co.kr/%ec%bd%94%ec%8a%a4%ed%94%bc%ec%99%80-%ec%bd%94%ec%8a%a4%eb%8b%a5-%eb%a1%a4%eb%9f%ac%ec%bd%94%ec%8a%a4%ed%84%b0-%ec%96%91%ea%b7%b9%ed%99%94-%ec%9e%a5%ec%84%b8%ec%98%88%ec%9a%94/",
+        "published": "2026-06-05T01:34:54+00:00",
+        "summary": "코스피가 사상 최고치를 경신하면서 롤러코스터 장세를 지속했다.\n올해 사이드카 발동이 20회에 달할 정도로 변동성이 극심하다.\n AI 수혜주 중심의 상승과 중소형주 약세로 양극화가 심화됐다.",
+        "keywords": [
+          "코스피",
+          "코스닥",
+          "변동성"
+        ],
+        "score_total": 75,
+        "score_breakdown": {
+          "relevance": 32,
+          "timeliness": 14,
+          "originality": 10,
+          "depth": 12,
+          "newsworthy": 7
+        },
+        "has_lead_image": true,
+        "image_url": "https://uppity.co.kr/wp-content/uploads/2026/06/arturo-anez-MA1Xobltz5o-unsplash.jpg",
+        "image_width_hint": 800
+      },
+      {
+        "id": "0da471e42b7c38ad5c79cb167941f5aa",
+        "source_id": "uppity",
+        "source_name": "어피티 머니레터",
+        "category": "economy",
+        "title": "환율 1달러에 1560원, 지정학·고유가·리밸런싱 겹쳤어요",
+        "headline": "환율 1560원, 지정학 악재 겹쳤다",
+        "url": "https://uppity.co.kr/%ed%99%98%ec%9c%a8-1%eb%8b%ac%eb%9f%ac%ec%97%90-1560%ec%9b%90-%ec%a7%80%ec%a0%95%ed%95%99%c2%b7%ea%b3%a0%ec%9c%a0%ea%b0%80%c2%b7%eb%a6%ac%eb%b0%b8%eb%9f%b0%ec%8b%b1-%ea%b2%b9%ec%b3%a4%ec%96%b4/",
+        "published": "2026-06-08T02:15:54+00:00",
+        "summary": "원-달러 환율이 1560원을 돌파하며 원화 약세가 심화됐다.\n경제지표는 양호하지만 구조적 달러 강세와 중동 위기가 복합적으로 작용했다.\n한·미 금리 역전과 기업의 대미투자 선호가 지속 영향을 준다.",
+        "keywords": [
+          "환율",
+          "원화약세",
+          "경제지표"
+        ],
+        "score_total": 72,
+        "score_breakdown": {
+          "relevance": 28,
+          "timeliness": 14,
+          "originality": 10,
+          "depth": 12,
+          "newsworthy": 8
+        },
+        "has_lead_image": true,
+        "image_url": "https://uppity.co.kr/wp-content/uploads/2026/06/2148780591.jpg",
+        "image_width_hint": 800
+      }
+    ],
+    "local": [
+      {
+        "id": "10ccf215bc167bee2a0b33f5bb026d7a",
+        "source_id": "tambang",
+        "source_name": "탐방레터",
+        "category": "local",
+        "title": "🐻 야생의 곰이 나타났다! 숲으로 떠난 미술",
+        "headline": "야생의 곰, 숲 속 미술로",
+        "url": "https://kill-the-newsletter.com/feeds/phih63fnixmpeoctfzle/entries/ymjnvkyzyw2ev0tyn7z0.html",
+        "published": "2026-06-07T22:30:51+00:00",
+        "summary": "개인 프로젝트로 동네 공원을 탐방하며 자연과 미술을 결합한 창작 활동을 소개하는 기사.\n주말 공원 도장 깨기라는 일상적 경험에서 출발한 문화 활동.\n지역 커뮤니티 기반의 소박하지만 의미 있는 문화 생활 기록.",
+        "keywords": [
+          "문화활동",
+          "공원탐방",
+          "지역커뮤니티"
+        ],
+        "score_total": 28,
+        "score_breakdown": {
+          "relevance": 2,
+          "timeliness": 5,
+          "originality": 8,
+          "depth": 8,
+          "newsworthy": 5
+        },
+        "has_lead_image": true,
+        "image_url": "https://img2.stibee.com/63191_3420648_1780634432056654892.png",
+        "image_width_hint": 630
+      }
+    ]
+  },
+  "build_meta": {
+    "total_articles_collected": 23,
+    "ai_processed": 23,
+    "estimated_cost_usd": 0.03522,
+    "token_usage": {
+      "input_tokens": 14165,
+      "output_tokens": 5972
+    }
+  }
+}

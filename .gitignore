@@ -6,7 +6,6 @@ __pycache__/
 venv/
 env/
 *.egg-info/
-dist/
 build/
 
 # 환경변수 (절대 커밋 금지)
@@ -14,10 +13,10 @@ build/
 .env.local
 .env.*.local
 
-# 데이터 / 빌드 산출물
-paper-newspaper/data/processed_urls.json
-paper-newspaper/data/latest.json
-paper-newspaper/data/issues/
+# Node / Astro 빌드 산출물
+paper-newspaper/web/node_modules/
+paper-newspaper/web/.astro/
+paper-newspaper/web/dist/
 
 # IDE
 .vscode/

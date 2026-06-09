@@ -1,0 +1,463 @@
+{
+  "issue_date": "2026-06-08",
+  "issue_number": 1,
+  "front_page": {
+    "top": {
+      "id": "2fdc86086d307ecf846fc3247c2f6a52",
+      "source_id": "daehong",
+      "source_name": "대홍기획 블로그",
+      "category": "marketing",
+      "title": "서울의 아이디어, 뉴욕에서 통했다",
+      "headline": "롯데건설 '폭염주의복', 클리오 어워즈 브론즈",
+      "url": "https://blog.daehong.com/943",
+      "published": "2026-06-04T02:05:33+00:00",
+      "summary": "서울에서 기획된 롯데건설의 '폭염주의복(Vest for Rest)' 캠페인이 국제광고제 클리오 어워즈에서 수상했다.\n한국의 사회적 이슈 해결형 광고가 뉴욕 중심의 글로벌 광고계에서 인정받았다는 의의가 있다.\n국내 기획사의 국제 경쟁력과 로컬 아이디어의 글로벌 통용성을 입증한다.",
+      "keywords": [
+        "롯데건설",
+        "클리오어워즈",
+        "사회적광고"
+      ],
+      "score_total": 81,
+      "score_breakdown": {
+        "relevance": 36,
+        "timeliness": 14,
+        "originality": 14,
+        "depth": 12,
+        "newsworthy": 5
+      },
+      "has_lead_image": true,
+      "image_url": "https://blog.kakaocdn.net/dn/bPXJ9A/dJMcaip1bHW/ibq1J2v9MveqEBcM9WEUL1/img.jpg",
+      "image_width_hint": 860
+    },
+    "sides": [
+      {
+        "id": "04c9386b6fc810f13b61419972c12f13",
+        "source_id": "uppity",
+        "source_name": "어피티 머니레터",
+        "category": "economy",
+        "title": "엔비디아의 PC ‘the new era, era~’",
+        "headline": "엔비디아, PC 시장 AI칩 RTX스파크 선언",
+        "url": "https://uppity.co.kr/%ec%97%94%eb%b9%84%eb%94%94%ec%95%84%ec%9d%98-pc-the-new-era-era/",
+        "published": "2026-06-04T00:57:16+00:00",
+        "summary": "젠슨 황 엔비디아 CEO가 GTC 타이베이 2026에서 AI PC시장 진출을 공식 선언했다.\n마이크로소프트와 함께 개발한 RTX 스파크 칩을 올가을 탑재 PC 출시 예정이다.\nAI 에이전트 시대의 개인용 기기 수요 증가를 주요 전략 배경으로 삼고 있다.",
+        "keywords": [
+          "엔비디아",
+          "AI",
+          "PC시장",
+          "RTX스파크",
+          "기술혁신"
+        ],
+        "score_total": 82,
+        "score_breakdown": {
+          "relevance": 35,
+          "timeliness": 14,
+          "originality": 11,
+          "depth": 12,
+          "newsworthy": 10
+        },
+        "has_lead_image": true,
+        "image_url": "https://uppity.co.kr/wp-content/uploads/2026/06/boliviainteligente-eyWlM1f0Vu0-unsplash.jpg",
+        "image_width_hint": 800
+      },
+      {
+        "id": "6c350b5c54091b7351453c40434cbe0b",
+        "source_id": "uppity",
+        "source_name": "어피티 머니레터",
+        "category": "economy",
+        "title": "💰엔비디아가 PC 시장 진출 선언한 이유는?",
+        "headline": "엔비디아 PC진출, 마이크로소프트와 재창조",
+        "url": "https://uppity.co.kr/%f0%9f%92%b0%ec%97%94%eb%b9%84%eb%94%94%ec%95%84%ea%b0%80-pc-%ec%8b%9c%ec%9e%a5-%ec%a7%84%ec%b6%9c-%ec%84%a0%ec%96%b8%ed%95%9c-%ec%9d%b4%ec%9c%a0%eb%8a%94/",
+        "published": "2026-06-04T00:46:45+00:00",
+        "summary": "엔비디아의 AI PC 시장 진출 배경과 전략적 의미를 심화 분석한 경제뉴스다.\n10년 후 PC의 형태 변화와 AI 에이전트 시대 준비를 강조한다.\n마이크로소프트와의 파트너십으로 산업 재편 신호를 보낸다.",
+        "keywords": [
+          "엔비디아",
+          "AI에이전트",
+          "마이크로소프트",
+          "산업재편",
+          "기술전략"
+        ],
+        "score_total": 79,
+        "score_breakdown": {
+          "relevance": 32,
+          "timeliness": 14,
+          "originality": 10,
+          "depth": 13,
+          "newsworthy": 10
+        },
+        "has_lead_image": true,
+        "image_url": "https://img2.stibee.com/8466_3366286_1777450149216738423.png",
+        "image_width_hint": 630
+      }
+    ]
+  },
+  "sections": {
+    "marketing": [
+      {
+        "id": "f83b1f016aaa2784eb7309d9b13e313d",
+        "source_id": "daehong",
+        "source_name": "대홍기획 블로그",
+        "category": "marketing",
+        "title": "컨디션_ &lsquo;장카설유&rsquo;를 섭외했다고?!",
+        "headline": "컨디션, '장카설유' 조합으로 2030 공략",
+        "url": "https://blog.daehong.com/944",
+        "published": "2026-06-05T02:52:00+00:00",
+        "summary": "숙취해소제 컨디션이 4세대 아이돌 대표 비주얼인 '장카설유' 캐스팅으로 브랜드 이미지 혁신을 꾀했다.\n과음 문화 감소와 소버 라이프 트렌드 변화에 맞춰 제품을 일상적 건강음료로 포지셔닝했다.\n캠페인 기획팀의 전략적 통찰과 타깃층 심리 분석이 담겨있다.",
+        "keywords": [
+          "컨디션",
+          "캠페인",
+          "2030세대마케팅"
+        ],
+        "score_total": 76,
+        "score_breakdown": {
+          "relevance": 35,
+          "timeliness": 14,
+          "originality": 13,
+          "depth": 10,
+          "newsworthy": 4
+        },
+        "has_lead_image": true,
+        "image_url": "https://blog.kakaocdn.net/dn/FKIsT/dJMcahYWJcG/MNNmbEkYsvB3P9JnoHLXn0/img.jpg",
+        "image_width_hint": 1000
+      },
+      {
+        "id": "128d5725335573269ce2a5a794131f54",
+        "source_id": "branderku",
+        "source_name": "브랜더쿠",
+        "category": "marketing",
+        "title": "🌳지구 지킬래 말래? Green Green 브랜드 3",
+        "headline": "환경의 날, 힙한 친환경 브랜드 3선",
+        "url": "https://kill-the-newsletter.com/feeds/d3i8um66z0qrc6f975gm/entries/fehrxfqcldampbgaq146.html",
+        "published": "2026-06-04T22:31:58+00:00",
+        "summary": "세계 환경의 날(6월 5일)을 맞아 소비자의 선택을 받는 친환경 브랜드 3곳을 소개한다.\n편리함과 미학을 포기하지 않으면서 지속가능성을 추구하는 브랜드의 특징을 분석한다.\n친환경이 선택이 아닌 라이프스타일 기본값이 되는 시대의 마케팅 전략을 담았다.",
+        "keywords": [
+          "친환경브랜드",
+          "ESG",
+          "라이프스타일"
+        ],
+        "score_total": 72,
+        "score_breakdown": {
+          "relevance": 34,
+          "timeliness": 14,
+          "originality": 10,
+          "depth": 8,
+          "newsworthy": 6
+        },
+        "has_lead_image": true,
+        "image_url": "https://img2.stibee.com/17429_3423108_1780560172630008751.png",
+        "image_width_hint": 600
+      },
+      {
+        "id": "6576c380149bde07035f8775edb41f76",
+        "source_id": "apnews_adrev",
+        "source_name": "AP신문 광고평론",
+        "category": "marketing",
+        "title": "화려한 포스에 가려진 브랜드 메시지…현대제철 새광고",
+        "headline": "현대제철, 스타워즈와 협업 친환경 공정 광고",
+        "url": "https://www.apnews.kr/news/articleView.html?idxno=3048819",
+        "published": "2026-06-04T14:06:07+00:00",
+        "summary": "현대제철이 영화 '스타워즈: 만달로리안과 그로구'와 협업한 광고를 공개했다.\n전기로와 고로 융합의 친환경 '전기로-고로 복합 프로세스' 기술을 영화 속 듀오에 빗대 소개한다.\n시각적 몰입감으로 복잡한 기술을 직관적으로 표현했다.",
+        "keywords": [
+          "현대제철",
+          "스타워즈",
+          "친환경기술"
+        ],
+        "score_total": 72,
+        "score_breakdown": {
+          "relevance": 35,
+          "timeliness": 13,
+          "originality": 12,
+          "depth": 8,
+          "newsworthy": 4
+        },
+        "has_lead_image": false,
+        "image_url": "https://cdn.apnews.kr/news/thumbnail/202606/3048819_80206_3528_v150.jpg",
+        "image_width_hint": 800
+      },
+      {
+        "id": "8c6258edb8d6d79da5a80bc7d70a9ba6",
+        "source_id": "apnews_apm",
+        "source_name": "AP신문 AD·PR·MEDIA",
+        "category": "marketing",
+        "title": "성적 광고 범람에 칼 빼든 인신윤위…자율규제 강화 논의",
+        "headline": "선정적 광고 자율규제 강화 논의",
+        "url": "https://www.apnews.kr/news/articleView.html?idxno=3048796",
+        "published": "2026-06-02T11:30:49+00:00",
+        "summary": "인터넷신문윤리위원회가 선정적 광고 규제 방안을 주제로 학술심포지움을 개최했다.\n인터넷신문 광고 유통 구조 변화와 선정적 광고 실태를 분석하며 자율규제 실효성 확보를 모색한다.\n업계 차원의 윤리 규제 강화 움직임으로 광고 정책과 산업 환경 변화의 신호를 제시한다.",
+        "keywords": [
+          "광고규제",
+          "윤리",
+          "자율규제"
+        ],
+        "score_total": 72,
+        "score_breakdown": {
+          "relevance": 32,
+          "timeliness": 13,
+          "originality": 11,
+          "depth": 10,
+          "newsworthy": 6
+        },
+        "has_lead_image": false,
+        "image_url": "https://cdn.apnews.kr/news/thumbnail/202606/3048796_80175_3011_v150.jpg",
+        "image_width_hint": 800
+      },
+      {
+        "id": "fa4db05311c1a624a47836e802314a78",
+        "source_id": "apnews_adrev",
+        "source_name": "AP신문 광고평론",
+        "category": "marketing",
+        "title": "X세대를 위한 활력 처방…동아제약 새광고",
+        "headline": "박카스, 직장인 공감 광고로 X세대 공략",
+        "url": "https://www.apnews.kr/news/articleView.html?idxno=3048851",
+        "published": "2026-06-05T10:45:15+00:00",
+        "summary": "동아제약이 박카스 '만능 팀장 편' 광고를 선보였다.\n듀스의 '우리는'을 배경음악으로 다중역할하는 피곤한 직장인의 정체성 혼란을 재치 있게 표현했다.\n현대인의 피로감에 대한 공감과 활력 처방을 결합했다.",
+        "keywords": [
+          "박카스",
+          "직장인",
+          "공감마케팅"
+        ],
+        "score_total": 71,
+        "score_breakdown": {
+          "relevance": 35,
+          "timeliness": 13,
+          "originality": 12,
+          "depth": 8,
+          "newsworthy": 3
+        },
+        "has_lead_image": false,
+        "image_url": "https://cdn.apnews.kr/news/thumbnail/202606/3048851_80266_3617_v150.jpg",
+        "image_width_hint": 800
+      },
+      {
+        "id": "f9df3ab1018dd9fe51f8f9be223a0340",
+        "source_id": "apnews_adrev",
+        "source_name": "AP신문 광고평론",
+        "category": "marketing",
+        "title": "진심은 100%ㆍ설득은 1% 부족…NH농협은행 새광고",
+        "headline": "NH농협은행, '1%의 진심' 담은 감성 광고",
+        "url": "https://www.apnews.kr/news/articleView.html?idxno=3048896",
+        "published": "2026-06-08T08:00:00+00:00",
+        "summary": "NH농협은행이 배우 박지훈을 통해 사회 곳곳의 '1%의 진심'을 조명하는 광고를 공개했다.\n시장 상인의 덤, 기업 투자, 금융사기 예방 등 세심한 배려를 담았다.\n진정성은 높으나 금융기관 브랜드 메시지 설득력은 아쉽다는 평가다.",
+        "keywords": [
+          "NH농협은행",
+          "진심",
+          "감성마케팅"
+        ],
+        "score_total": 70,
+        "score_breakdown": {
+          "relevance": 33,
+          "timeliness": 12,
+          "originality": 11,
+          "depth": 10,
+          "newsworthy": 4
+        },
+        "has_lead_image": false,
+        "image_url": "https://cdn.apnews.kr/news/thumbnail/202606/3048896_80341_3614_v150.jpg",
+        "image_width_hint": 800
+      },
+      {
+        "id": "78c539f46f8fc45828b46de0d8e12192",
+        "source_id": "apnews_adrev",
+        "source_name": "AP신문 광고평론",
+        "category": "marketing",
+        "title": "웃음으로 낮춘 로밍 진입장벽…SK텔레콤 새광고",
+        "headline": "SK텔레콤, 웃음으로 풀어낸 로밍서비스",
+        "url": "https://www.apnews.kr/news/articleView.html?idxno=3048763",
+        "published": "2026-06-01T16:52:42+00:00",
+        "summary": "SK텔레콤이 배우 지창욱을 주인공으로 한 T로밍 신규 광고를 공개했다.\n비행과 로밍 경험을 B급 변신 애니메이션 스타일로 코믹하게 연출해 복잡한 로밍 과정의 진입장벽을 낮췄다.\n감정적 공감과 유머를 활용한 서비스 이해도 제고 전략으로 통신사 광고의 새로운 접근을 보여준다.",
+        "keywords": [
+          "SK텔레콤",
+          "로밍",
+          "서비스광고"
+        ],
+        "score_total": 70,
+        "score_breakdown": {
+          "relevance": 34,
+          "timeliness": 12,
+          "originality": 12,
+          "depth": 9,
+          "newsworthy": 3
+        },
+        "has_lead_image": false,
+        "image_url": "https://cdn.apnews.kr/news/thumbnail/202605/3048763_80110_3517_v150.jpg",
+        "image_width_hint": 800
+      },
+      {
+        "id": "77c0cc6a9d2b1d4a2a04e1451e445505",
+        "source_id": "daehong",
+        "source_name": "대홍기획 블로그",
+        "category": "marketing",
+        "title": "66노스_북위 66도를 지켜온 100년의 철학",
+        "headline": "66노스, 100년 철학으로 올림픽 무대 점령",
+        "url": "https://blog.daehong.com/945",
+        "published": "2026-06-05T03:55:05+00:00",
+        "summary": "아이슬란드 동계올림픽 대표팀 단복을 장비한 66노스는 북위 66도 지역의 100년 역사를 가진 아웃도어 브랜드다.\n산악 문화와 극지 환경에 특화된 브랜드 철학이 국제 스포츠 무대에서 입증되고 있다.\n글로벌 아웃도어 시장에서 틈새 브랜드의 성장 가능성을 보여준다.",
+        "keywords": [
+          "66노스",
+          "동계올림픽",
+          "아웃도어브랜드"
+        ],
+        "score_total": 68,
+        "score_breakdown": {
+          "relevance": 32,
+          "timeliness": 13,
+          "originality": 11,
+          "depth": 7,
+          "newsworthy": 5
+        },
+        "has_lead_image": true,
+        "image_url": "https://blog.kakaocdn.net/dn/dinFR0/dJMcahECLdC/AI7i509hTKpJQJNgPJgoI1/img.jpg",
+        "image_width_hint": 1000
+      }
+    ],
+    "economy": [
+      {
+        "id": "aff5292d8d4a9a90f169b51b6b39d630",
+        "source_id": "uppity",
+        "source_name": "어피티 머니레터",
+        "category": "economy",
+        "title": "코스피와 코스닥,  롤러코스터 & 양극화 장세예요",
+        "headline": "코스피 사이드카 20회 발동, 변동성 극심",
+        "url": "https://uppity.co.kr/%ec%bd%94%ec%8a%a4%ed%94%bc%ec%99%80-%ec%bd%94%ec%8a%a4%eb%8b%a5-%eb%a1%a4%eb%9f%ac%ec%bd%94%ec%8a%a4%ed%84%b0-%ec%96%91%ea%b7%b9%ed%99%94-%ec%9e%a5%ec%84%b8%ec%98%88%ec%9a%94/",
+        "published": "2026-06-05T01:34:54+00:00",
+        "summary": "올해 코스피 사이드카가 20회 발동되며 2002년 이후 역대급 변동성을 기록했다.\n AI 반도체 대형주 중심 코스피 랠리와 달리 코스닥은 5거래일 연속 하락하는 양극화를 보였다.\n시장 과열과 투자자 심리 불안의 신호가 동시에 나타나고 있다.",
+        "keywords": [
+          "사이드카",
+          "시장변동성",
+          "양극화장세"
+        ],
+        "score_total": 72,
+        "score_breakdown": {
+          "relevance": 28,
+          "timeliness": 14,
+          "originality": 11,
+          "depth": 11,
+          "newsworthy": 8
+        },
+        "has_lead_image": true,
+        "image_url": "https://uppity.co.kr/wp-content/uploads/2026/06/arturo-anez-MA1Xobltz5o-unsplash.jpg",
+        "image_width_hint": 800
+      },
+      {
+        "id": "25cffcc0c4b92147424b31e7d0a9b1cb",
+        "source_id": "uppity",
+        "source_name": "어피티 머니레터",
+        "category": "economy",
+        "title": "💰올해 발동된 사이드카만 20번이라고?",
+        "headline": "국내증시 '롤러코스터' 장세 계속",
+        "url": "https://uppity.co.kr/%f0%9f%92%b0%ec%98%ac%ed%95%b4-%eb%b0%9c%eb%8f%99%eb%90%9c-%ec%82%ac%ec%9d%b4%eb%93%9c%ec%b9%b4%eb%a7%8c-20%eb%b2%88%ec%9d%b4%eb%9d%bc%ea%b3%a0/",
+        "published": "2026-06-05T01:30:10+00:00",
+        "summary": "코스피가 사상 최고치를 연신 경신하며 외국인 차익실현과 언제든 급락할 수 있는 리스크를 노출했다.\n코스닥과 코스피의 양극화 장세는 AI 인프라 투자 수혜가 대형주 중심임을 드러냈다.\n시장 변동성 심화로 동학개미의 스트레스 지수가 급상승할 것으로 예상된다.",
+        "keywords": [
+          "코스피",
+          "신고가",
+          "외국인매도"
+        ],
+        "score_total": 70,
+        "score_breakdown": {
+          "relevance": 30,
+          "timeliness": 14,
+          "originality": 9,
+          "depth": 10,
+          "newsworthy": 7
+        },
+        "has_lead_image": true,
+        "image_url": "https://img2.stibee.com/8466_3402252_1779352871222426844.png",
+        "image_width_hint": 630
+      },
+      {
+        "id": "678f6eeb9cd5100e7224bc4ddc31543c",
+        "source_id": "uppity",
+        "source_name": "어피티 머니레터",
+        "category": "economy",
+        "title": "💰치솟은 환율, 그 배경이 더 중요해요",
+        "headline": "환율 상승, 구조적 배경 짚어보기",
+        "url": "https://uppity.co.kr/%f0%9f%92%b0%ec%b9%98%ec%86%9f%ec%9d%80-%ed%99%98%ec%9c%a8-%ea%b7%b8-%eb%b0%b0%ea%b2%bd%ec%9d%b4-%eb%8d%94-%ec%a4%91%ec%9a%94%ed%95%b4%ec%9a%94/",
+        "published": "2026-06-08T02:06:31+00:00",
+        "summary": "원-달러 환율이 1,540원대로 상승하며 시장 불안감이 커지고 있다.\n환율 급등의 단순한 원인이 아닌 구조적 배경과 대외적 요인을 분석했다.\n투자자들이 막연한 걱정보다 정확한 이해로 현재 상황을 판단하길 제시한다.",
+        "keywords": [
+          "환율",
+          "경제분석",
+          "시장심리"
+        ],
+        "score_total": 68,
+        "score_breakdown": {
+          "relevance": 25,
+          "timeliness": 13,
+          "originality": 10,
+          "depth": 12,
+          "newsworthy": 8
+        },
+        "has_lead_image": true,
+        "image_url": "https://img2.stibee.com/8466_2723951_1743321418100018520.png?s34nuz9n?ajh5dn6a?177gfo8n",
+        "image_width_hint": 628
+      },
+      {
+        "id": "f7a9523060b4220f17a5c3cc870e2439",
+        "source_id": "uppity",
+        "source_name": "어피티 머니레터",
+        "category": "economy",
+        "title": "6월 1주차 오답노트",
+        "headline": "국민연금 국내주식 비중 상향 결정",
+        "url": "https://uppity.co.kr/6%ec%9b%94-1%ec%a3%bc%ec%b0%a8-%ec%98%a4%eb%8b%b5%eb%85%b8%ed%8a%b8/",
+        "published": "2026-06-04T08:20:03+00:00",
+        "summary": "국민연금이 국내 주식 목표 비중을 14.9%에서 20.8%로 상향 조정했다.\n시장의 저평가 현상을 반영한 포트폴리오 재편성으로 국내 주식 매수 신호로 작용한다.\nLG그룹주 같은 저평가 우량주에 대한 기관투자자의 긍정적 평가를 나타낸다.",
+        "keywords": [
+          "국민연금",
+          "자산배분",
+          "주식비중"
+        ],
+        "score_total": 65,
+        "score_breakdown": {
+          "relevance": 32,
+          "timeliness": 12,
+          "originality": 8,
+          "depth": 9,
+          "newsworthy": 4
+        },
+        "has_lead_image": false,
+        "image_url": "https://uppity.co.kr/wp-content/uploads/2026/06/absolutvision-82TpEld0_e4-unsplash-1.jpg",
+        "image_width_hint": 800
+      }
+    ],
+    "local": [
+      {
+        "id": "10ccf215bc167bee2a0b33f5bb026d7a",
+        "source_id": "tambang",
+        "source_name": "탐방레터",
+        "category": "local",
+        "title": "🐻 야생의 곰이 나타났다! 숲으로 떠난 미술",
+        "headline": "숲속 공원에서 만나는 야생곰 미술전",
+        "url": "https://kill-the-newsletter.com/feeds/phih63fnixmpeoctfzle/entries/ymjnvkyzyw2ev0tyn7z0.html",
+        "published": "2026-06-07T22:30:51+00:00",
+        "summary": "주말 프로젝트 형식으로 동네 공원 탐방을 통해 예술 경험을 나눈 개인 에세이다.\n자연과 예술의 만남을 일상적 관찰로 표현한다.\n여행 대신 근처 공원에서 찾을 수 있는 소소한 즐거움을 소개한다.",
+        "keywords": [
+          "공원",
+          "미술",
+          "자연",
+          "일상",
+          "여가"
+        ],
+        "score_total": 38,
+        "score_breakdown": {
+          "relevance": 8,
+          "timeliness": 6,
+          "originality": 10,
+          "depth": 7,
+          "newsworthy": 7
+        },
+        "has_lead_image": true,
+        "image_url": "https://img2.stibee.com/63191_3420648_1780634432056654892.png",
+        "image_width_hint": 630
+      }
+    ]
+  },
+  "build_meta": {
+    "total_articles_collected": 23,
+    "ai_processed": 23,
+    "estimated_cost_usd": 0.035673,
+    "token_usage": {
+      "input_tokens": 13921,
+      "output_tokens": 6134
+    }
+  }
+}
