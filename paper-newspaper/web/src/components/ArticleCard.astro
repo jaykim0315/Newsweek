@@ -31,7 +31,7 @@ function fmtDate(iso: string): string {
 }
 
 const summary = article.summary.replace(/\n/g, ' ');
-const hasImage = Boolean(article.image_url) && (article.image_width_hint ?? 0) >= 300;
+const hasImage = article.has_lead_image && Boolean(article.image_url) && (article.image_width_hint ?? 0) >= 300;
 ---
 
 <article class="flex flex-col h-full">

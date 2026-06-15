@@ -31,7 +31,7 @@ function fmtDate(iso: string): string {
 }
 
 const firstLine = article.summary.split('\n')[0] ?? '';
-const hasImage = Boolean(article.image_url);
+const hasImage = Boolean(article.image_url) && (article.image_width_hint ?? 0) >= 400;
 ---
 
 <article class:list={["py-4", !first && "border-t border-ink"]}>
